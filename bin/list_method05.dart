@@ -8,6 +8,12 @@
         numbers2(list): parameter
     Returns:
         list: return answer
-*/
+*/List func(List numbers1){
+  List numbers2 = [3,5,7];
+  numbers1.addAll(numbers2);
+  return numbers1;
+}
 
-void main() {}
+void main() {
+  print(func([2,4,6]));
+}

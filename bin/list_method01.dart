@@ -6,6 +6,12 @@
         x(str): parameter
     Returns:
         list: return answer
-*/
+*/List func(List fruits ){
+  String a = 'kiwi';
+  fruits.add(a);
+  return fruits;
+}
 
-void main() {}
+void main() {
+  print(func(['apple','banana']));
+}

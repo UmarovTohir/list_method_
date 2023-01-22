@@ -6,6 +6,11 @@
         fruits2(list): parameter
     Returns:
         list: return answer
-*/
+*/List  func(List fruits1) {
+fruits1.addAll( ["kiwi", "pear"]);
+return fruits1;
+}
 
-void main() {}
+void main() {
+  print( func(["apple", "banana"]));
+}
